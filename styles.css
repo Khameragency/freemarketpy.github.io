@@ -13,18 +13,27 @@ header {
     margin: 20px 0;
 }
 
-header img {
-    width: 150px; /* Ajusta este tamaño según sea necesario */
-    height: auto;
-}
-
 h1 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
+main {
+    width: 80%;
+    max-width: 800px;
+}
+
 p {
     font-size: 1.2em;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
 }
 
 ul {
@@ -35,6 +44,15 @@ ul {
 ul li {
     font-size: 1.2em;
     margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+ul li a:hover {
+    text-decoration: underline;
 }
 
 footer {
